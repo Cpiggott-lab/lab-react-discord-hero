@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #404eed;
+  color: white;
+}
+
+nav {
+  background-color: #404eed;
+  padding: 2rem;
+  width: 100%;
+}
+
+.nav-inner {
+  display: flex;
+  justify-content: space-between;
+}
+nav img {
+  height: 35px;
+}
+.container {
+  margin-bottom: 0;
+}
+.hero {
+  flex: 1;
+  margin-bottom: 4rem;
+  padding: 4rem;
+}
+
+.hero h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  margin-bottom: rem;
+  width: 600px;
+}
+
+.hero p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  width: 700px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.buttons button {
+  border: none;
+  border-radius: 999px;
+  font-size: 1.7rem;
+}
+
+.white-button {
+  background-color: white;
+  color: black;
+  font-size: 2rem;
+}
+
+.black-button {
+  background-color: black;
+  color: white;
+}
+.background-image {
+  display: flex;
+  height: auto;
+  width: 800px;
+  margin-bottom: 0px;
+  margin-left: 650px;
+}
